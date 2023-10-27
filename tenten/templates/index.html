@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block contents %}
+<hl class="mb-3"><h1 style="text-align: center">환장한 정보</h1></hl>
+<div class="m-3" style="text-align: center">
+    <img src="{% static '/images/no_photo.png' %}" alt="홈 이미지" width="500">
+</div>
+<table class="table table-hover">
+    <thead>
+        <tr class="text-center">
+            <th scope="col">제목 및 URL주소</th>
+            <th scope="col">가격(원)</th>
+            <th scope="col">할인율(%)</th>
+            <th scope="col">댓글 수</th>
+            <th scope="col">좋아요 수</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for data in recommends %}
+        <tr>
+            <td class="center"><img src="{{ data.image_link }}"></td>
+            <td><a href="{{ data.link }}">{{ data.title }}</td>
+            <td class="center"><span>{{ data.price }}</span></td>
+            <td class="center"><span>{{ data.dc_rate }}</span></td>
+            <td class="center"><span>{{ data.reply_cnt }}</span></td>
+            <td class="center"><span>{{ data.like_cnt }}</span></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock contents %}
