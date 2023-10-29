@@ -11,7 +11,7 @@
     {% endblock auth_css %}
     <style>
         img {
-            width: 45px;
+            width: 80px;
         }
         th {
             text-align: center;
@@ -29,15 +29,15 @@
 </head>
 
 <body>
-    {% include 'navbar.html' %}
-    
+{% include 'navbar.html' %}
     <div class="container" id="content">
         {% block contents %}
         
         {% endblock contents %}
     </div>
-    
-    {% include 'footer.html' %}
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+{% include 'footer.html' %}
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+{% block script %}
+{% endblock script %}
