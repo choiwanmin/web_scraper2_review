@@ -5,28 +5,11 @@ Dashboard
 {% endblock %}
 
 {% block contents %}
-{% comment "주석" %}
-<p>
-    <div class="row mt-3 pt-3">
-        <div class="col-md-4">
-            <div class="border p-3 shadow">
-                <h4>Add Data</h4>
-                <hr>
-                <form action="" method="post">
-                    {{ form | crispy }} {% csrf_token %}
-                    <input type="submit" class="btn btn-success btn-block" value="입력">
-                </form>
-            </div>
-        </div>
-</p>
-{% endcomment %}
-
-        <div class="col">
-            <canvas id="myChart"></canvas>
-        </div>
-    </div>
-
+<div>
+    <canvas id="myChart"></canvas>
+</div>
 {% endblock contents %}
+
 {% block script %}
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
@@ -68,11 +51,7 @@ Dashboard
             }]
         },
         options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
+            indexAxis: 'y',
         }
     });
 </script>
