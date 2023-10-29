@@ -21,16 +21,11 @@ def dashboard(request):
         cal1_data.sort()
         print(cal1_data)        
     if request.method == 'POST':
-        # form = ReplyCntDataForm(request.POST) 
-        # if form.is_valid():
-        #     form.save() # db 저장
-        # 아닌경우는 빈 폼
         pass
     else: 
         form = ReplyCntDataForm()
         context = {
             'dataset': data,
-            # 'form' : form
             }
     return render(request, 'dashboard.html', context)
 
