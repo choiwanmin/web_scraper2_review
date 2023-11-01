@@ -39,9 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tenten',
-    'widget_tweaks',
     'django_extensions',
-    'crispy_forms',
 ]
 
 MIDDLEWARE = [
