@@ -22,7 +22,7 @@
 * `URLConf`, `Template`, `Views` 정의
 * `Bootstrap` 적용
 > ### 웹 스크래핑 앱 구성도
-![부트캠프_프로젝트1_앱_구성도_231031](부트캠프_프로젝트1_앱_구성도_231031.jpg)
+![부트캠프_프로젝트1_앱_구성도_231031](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/1c49752f-04a8-4efe-abf3-a0e051a5a099)
 > ### 앱 데이터 모델
 * 데이터 수집 사이트 : "https://www.10x10.co.kr/shoppingtoday/shoppingchance_saleitem.asp?sflag=sc&disp=&srm=be
 * 데이터 수집 정보 : 이미지_url, 상품_url, 가격, 상품명, 할인율, 댓글개수, 좋아요개수
@@ -40,9 +40,11 @@
 *※ 2023/11/02 15:24 기준 웹 스크래핑 데이터*
 |Home 화면|
 |:--:|
-|![부트캠프_프로젝트1_home_1](부트캠프_프로젝트1_home_1.jpg)|
+|![부트캠프_프로젝트1_home_1](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/33d39a3b-bd1f-489c-ac9e-f97c019f60f8)
+|
 |**Dashboard 화면**|
-|![부트캠프_프로젝트1_dashboard_1](부트캠프_프로젝트1_dashboard_1.jpg)|
+|![부트캠프_프로젝트1_dashboard_1](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/ef51131e-6535-4253-88d0-78c5a2b17874)
+|
 ## 기술 스택 & 개발 환경
 ---
 > ### 기술 스택
