@@ -27,13 +27,13 @@
 
     |수집정보|데이터 속성|필요한 django 메서드|
     |--|:--:|--|
-    |이미지_url(image_link)|텍스트|CharField(max_length=200)|
-    |상품_url(link)|텍스트|CharField(max_length=200)|
-    |가격(price)|숫자|IntegerField()|
-    |상품명(tile)|텍스트|CharField(max_length=200)|
-    |할인율(dc_rate|숫자|IntegerField()|
-    |댓글개수(reply_cnt)|숫자|IntegerField()|
-    |좋아요개수(like_cnt)|숫자|IntegerField()|
+    |이미지_url(`image_link`)|텍스트|CharField(max_length=200)|
+    |상품_url(`link`)|텍스트|CharField(max_length=200)|
+    |가격(`price`)|숫자|IntegerField()|
+    |상품명(`tile`)|텍스트|CharField(max_length=200)|
+    |할인율(`dc_rate`)|숫자|IntegerField()|
+    |댓글개수(`reply_cnt`)|숫자|IntegerField()|
+    |좋아요개수(`like_cnt`)|숫자|IntegerField()|
 > ### 클라이언트 화면 UI
 *※ 2023/11/02 15:24 기준 웹 스크래핑 데이터*
 |Home 화면|
@@ -45,11 +45,11 @@
 > ### 기술 스택
 |기술 스택|사용 버전|
 |:---|:---|
-|python|`3.8.10`|
-|django|`4.1.3`|
-|requests|`2.28.1`|
-|django_extensions|`3.2.1`|
-|beautifulsoup4|`4.11.1`|
+|`python`|`3.8.10`|
+|`django`|`4.1.3`|
+|`requests`|`2.28.1`|
+|`django_extensions`|`3.2.1`|
+|`beautifulsoup4`|`4.11.1`|
 
 <br/>
 
@@ -68,10 +68,10 @@
 ## 배운 점 & 아쉬운 점
 > ### 배운 점
 * 수업을 통해 배운 Django를 활용한 웹앱 사이트 구현 및 복습
-* Django를 활용한 일련의 개발 과정
+* `Django`를 활용한 일련의 개발 과정
 > ### 아쉬운 점
 * 데이터 모델 하나만 생성한 점
 * 구현 기능을 더 추가하지 못한 점
-* git과 github를 활용하지 못한 점
+* `git`과 `github`를 활용하지 못한 점
 * 배포까지 진행하지 못한 점
 * 제한된 기간에 완성도를 높이지 못한 점
