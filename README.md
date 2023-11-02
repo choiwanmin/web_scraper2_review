@@ -30,7 +30,7 @@
     |이미지_url(`image_link`)|텍스트|CharField(max_length=200)|
     |상품_url(`link`)|텍스트|CharField(max_length=200)|
     |가격(`price`)|숫자|IntegerField()|
-    |상품명(`tile`)|텍스트|CharField(max_length=200)|
+    |상품명(`title`)|텍스트|CharField(max_length=200)|
     |할인율(`dc_rate`)|숫자|IntegerField()|
     |댓글개수(`reply_cnt`)|숫자|IntegerField()|
     |좋아요개수(`like_cnt`)|숫자|IntegerField()|
