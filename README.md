@@ -70,7 +70,9 @@
 * `Bootstrap` 적용
 
 ## 웹 스크래핑 앱 구성도
-![부트캠프_프로젝트1_앱_구성도_231031](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/1c49752f-04a8-4efe-abf3-a0e051a5a099)
+
+|![부트캠프_프로젝트1_앱_구성도_231031](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/1c49752f-04a8-4efe-abf3-a0e051a5a099)|
+|:--:|
 
 ## 클라이언트 화면 UI
 *※ 2023/11/02 기준 웹 스크래핑 데이터*
