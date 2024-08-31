@@ -21,27 +21,16 @@
 * 팀 목표 : 수업을 통해 배운 `Django`와 관련 기술의 복습 및 활용도 향상
 * 개인 목표 : 백엔드 프로그래밍 활용 역량 강화를 목표
 
-## 기술 스택 & 개발 환경
-> ### 기술 스택
+## 기술 스택
 |기술 스택|사용 버전|
 |:---|:---|
-|`python`|`3.8.10`|
-|`django`|`4.1.3`|
-|`requests`|`2.28.1`|
-|`django_extensions`|`3.2.1`|
-|`beautifulsoup4`|`4.11.1`|
-
-<br/>
-
-> ### 개발 환경
-
-|개발 환경|사용 프로그램|
-|:---|:---|
-|CLI|`Cmder`|
-|EDITOR|`Visual Studio Code`|
-|OS|`Window`|
-|SCM|`Git`|
+|Front-End|`HTML`, `Bootstrap`|
+|Back-End|`python(3.8.10)`, `django(4.1.3)`, `beautifulsoup4(4.11.1)`|
 |DBMS|`SQLite`|
+|Server|`AWS EC2(Ubuntu)`|
+|IDE|`VS code`, `Vim`, `DBeaver`, `cmder`|
+|SCM|`Git & Github`|
+|Etc.|`Slack`|
 
 ## 구현 기능
 * 텐텐사이트에서 할인특가 상품 중 일부 상품에 대한 간단한 정보 제공
