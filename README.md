@@ -22,7 +22,7 @@
 * 개인 목표 : 백엔드 프로그래밍 활용 역량 강화를 목표
 
 ## 기술 스택
-|기술 스택|사용 버전|
+|||
 |:---|:---|
 |Front-End|`HTML`, `Bootstrap`|
 |Back-End|`python(3.8.10)`, `django(4.1.3)`, `beautifulsoup4(4.11.1)`|
