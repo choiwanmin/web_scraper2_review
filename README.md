@@ -24,7 +24,7 @@
 ## 기술 스택
 |구분|사용 기술|
 |:---|:---|
-|Front-End|`HTML`, `Bootstrap`|
+|Front-End|`HTML`, `Javascript`, `Bootstrap`|
 |Back-End|`python(3.8.10)`, `django(4.1.3)`, `beautifulsoup4(4.11.1)`|
 |DBMS|`SQLite`|
 |Server|`AWS EC2(Ubuntu)`|
