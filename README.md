@@ -75,7 +75,7 @@
 |:--:|
 
 ## 클라이언트 화면 UI
-*※ 2023/11/02 기준 웹 스크래핑 데이터*
+*※ 2023/11/02 기준 데이터 UI*
 |Home 화면|Dashboard 화면|
 |:--:|:--:|
 |![부트캠프_프로젝트1_home_1](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/33d39a3b-bd1f-489c-ac9e-f97c019f60f8)|![부트캠프_프로젝트1_dashboard_1](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/ef51131e-6535-4253-88d0-78c5a2b17874)|
