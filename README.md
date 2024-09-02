@@ -22,15 +22,15 @@
 * 개인 목표 : 백엔드 프로그래밍 활용 역량 강화를 목표
 
 ## 기술 스택
-|구분|사용 기술|
-|:---|:---|
-|Front-End|`HTML`, `Javascript`, `Bootstrap`|
-|Back-End|`python(3.8.10)`, `django(4.1.3)`, `beautifulsoup4(4.11.1)`|
-|DBMS|`SQLite`|
-|Server|`AWS EC2(Ubuntu)`|
-|IDE|`VS code`, `Vim`, `DBeaver`, `cmder`|
-|SCM|`Git & Github`|
-|Etc.|`Slack`|
+    |구분|사용 기술|
+    |:---|:---|
+    |Front-End|`HTML`, `Javascript`, `Bootstrap`|
+    |Back-End|`python(3.8.10)`, `django(4.1.3)`, `beautifulsoup4(4.11.1)`|
+    |DBMS|`SQLite`|
+    |Server|`AWS EC2(Ubuntu)`|
+    |IDE|`VS code`, `Vim`, `DBeaver`, `cmder`|
+    |SCM|`Git & Github`|
+    |Etc.|`Slack`|
 
 ## 구현 기능
 * 텐텐사이트에서 할인특가 상품 중 일부 상품에 대한 간단한 정보 제공
@@ -60,14 +60,14 @@
 
 ## 웹 스크래핑 앱 구성도
 
-|![부트캠프_프로젝트1_앱_구성도_231031](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/1c49752f-04a8-4efe-abf3-a0e051a5a099)|
-|:--:|
+    |![부트캠프_프로젝트1_앱_구성도_231031](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/1c49752f-04a8-4efe-abf3-a0e051a5a099)|
+    |:--:|
 
 ## 클라이언트 화면 UI
 *※ 2023/11/02 기준 데이터 UI*
-|Home 화면|Dashboard 화면|
-|:--:|:--:|
-|![부트캠프_프로젝트1_home_1](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/33d39a3b-bd1f-489c-ac9e-f97c019f60f8)|![부트캠프_프로젝트1_dashboard_1](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/ef51131e-6535-4253-88d0-78c5a2b17874)|
+    |Home 화면|Dashboard 화면|
+    |:--:|:--:|
+    |![부트캠프_프로젝트1_home_1](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/33d39a3b-bd1f-489c-ac9e-f97c019f60f8)|![부트캠프_프로젝트1_dashboard_1](https://github.com/choiwanmin/web_scraper2_review/assets/111493653/ef51131e-6535-4253-88d0-78c5a2b17874)|
 
 ## 배운 점 & 아쉬운 점
 > ### 배운 점
@@ -83,45 +83,45 @@
 ## 기타
 > ### 프로젝트 구조
 ```
-📦web_scraper2_pjt
- ┣ 📂venv_webscraper2pjt
- ┃ ┣ 📂Include
- ┃ ┣ 📂Lib
- ┃ ┃ ┗ 📂site-packages
- ┃ ┣ 📂Scripts
- ┣ 📂web_scraper2_review
- ┃ ┣ 📂.git
- ┃ ┣ 📂scripts
- ┃ ┃ ┗ 📜scraper_minipjt.py
- ┃ ┣ 📂static
- ┃ ┃ ┣ 📂image
- ┃ ┃ ┗ 📂js
- ┃ ┣ 📂templates
- ┃ ┃ ┣ 📜base.html
- ┃ ┃ ┣ 📜footer.html
- ┃ ┃ ┗ 📜navbar.html
- ┃ ┣ 📂tenten
- ┃ ┃ ┣ 📂migrations
- ┃ ┃ ┃ ┗ 📜__init__.py
- ┃ ┃ ┣ 📂templates
- ┃ ┃ ┃ ┣ 📜dashboard.html
- ┃ ┃ ┃ ┗ 📜index.html
- ┃ ┃ ┣ 📜admin.py
- ┃ ┃ ┣ 📜apps.py
- ┃ ┃ ┣ 📜forms.py
- ┃ ┃ ┣ 📜models.py
- ┃ ┃ ┣ 📜tests.py
- ┃ ┃ ┣ 📜views.py
- ┃ ┃ ┗ 📜__init__.py
- ┃ ┣ 📂web_scraper2
- ┃ ┃ ┣ 📜asgi.py
- ┃ ┃ ┣ 📜settings.py
- ┃ ┃ ┣ 📜urls.py
- ┃ ┃ ┣ 📜wsgi.py
- ┃ ┃ ┗ 📜__init__.py
- ┃ ┣ 📜.gitignore
- ┃ ┣ 📜db.sqlite3
- ┃ ┣ 📜manage.py
- ┃ ┣ 📜README.md
- ┃ ┗ 📜req.txt
+    📦web_scraper2_pjt
+     ┣ 📂venv_webscraper2pjt
+     ┃ ┣ 📂Include
+     ┃ ┣ 📂Lib
+     ┃ ┃ ┗ 📂site-packages
+     ┃ ┣ 📂Scripts
+     ┣ 📂web_scraper2_review
+     ┃ ┣ 📂.git
+     ┃ ┣ 📂scripts
+     ┃ ┃ ┗ 📜scraper_minipjt.py
+     ┃ ┣ 📂static
+     ┃ ┃ ┣ 📂image
+     ┃ ┃ ┗ 📂js
+     ┃ ┣ 📂templates
+     ┃ ┃ ┣ 📜base.html
+     ┃ ┃ ┣ 📜footer.html
+     ┃ ┃ ┗ 📜navbar.html
+     ┃ ┣ 📂tenten
+     ┃ ┃ ┣ 📂migrations
+     ┃ ┃ ┃ ┗ 📜__init__.py
+     ┃ ┃ ┣ 📂templates
+     ┃ ┃ ┃ ┣ 📜dashboard.html
+     ┃ ┃ ┃ ┗ 📜index.html
+     ┃ ┃ ┣ 📜admin.py
+     ┃ ┃ ┣ 📜apps.py
+     ┃ ┃ ┣ 📜forms.py
+     ┃ ┃ ┣ 📜models.py
+     ┃ ┃ ┣ 📜tests.py
+     ┃ ┃ ┣ 📜views.py
+     ┃ ┃ ┗ 📜__init__.py
+     ┃ ┣ 📂web_scraper2
+     ┃ ┃ ┣ 📜asgi.py
+     ┃ ┃ ┣ 📜settings.py
+     ┃ ┃ ┣ 📜urls.py
+     ┃ ┃ ┣ 📜wsgi.py
+     ┃ ┃ ┗ 📜__init__.py
+     ┃ ┣ 📜.gitignore
+     ┃ ┣ 📜db.sqlite3
+     ┃ ┣ 📜manage.py
+     ┃ ┣ 📜README.md
+     ┃ ┗ 📜req.txt
 ```
