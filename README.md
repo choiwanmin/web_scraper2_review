@@ -84,45 +84,45 @@
 ## 기타
 > ### 프로젝트 구조
 ```
-    📦web_scraper2_pjt
-     ┣ 📂venv_webscraper2pjt
-     ┃ ┣ 📂Include
-     ┃ ┣ 📂Lib
-     ┃ ┃ ┗ 📂site-packages
-     ┃ ┣ 📂Scripts
-     ┣ 📂web_scraper2_review
-     ┃ ┣ 📂.git
-     ┃ ┣ 📂scripts
-     ┃ ┃ ┗ 📜scraper_minipjt.py
-     ┃ ┣ 📂static
-     ┃ ┃ ┣ 📂image
-     ┃ ┃ ┗ 📂js
-     ┃ ┣ 📂templates
-     ┃ ┃ ┣ 📜base.html
-     ┃ ┃ ┣ 📜footer.html
-     ┃ ┃ ┗ 📜navbar.html
-     ┃ ┣ 📂tenten
-     ┃ ┃ ┣ 📂migrations
-     ┃ ┃ ┃ ┗ 📜__init__.py
-     ┃ ┃ ┣ 📂templates
-     ┃ ┃ ┃ ┣ 📜dashboard.html
-     ┃ ┃ ┃ ┗ 📜index.html
-     ┃ ┃ ┣ 📜admin.py
-     ┃ ┃ ┣ 📜apps.py
-     ┃ ┃ ┣ 📜forms.py
-     ┃ ┃ ┣ 📜models.py
-     ┃ ┃ ┣ 📜tests.py
-     ┃ ┃ ┣ 📜views.py
-     ┃ ┃ ┗ 📜__init__.py
-     ┃ ┣ 📂web_scraper2
-     ┃ ┃ ┣ 📜asgi.py
-     ┃ ┃ ┣ 📜settings.py
-     ┃ ┃ ┣ 📜urls.py
-     ┃ ┃ ┣ 📜wsgi.py
-     ┃ ┃ ┗ 📜__init__.py
-     ┃ ┣ 📜.gitignore
-     ┃ ┣ 📜db.sqlite3
-     ┃ ┣ 📜manage.py
-     ┃ ┣ 📜README.md
-     ┃ ┗ 📜req.txt
+📦web_scraper2_pjt
+┣ 📂venv_webscraper2pjt
+┃ ┣ 📂Include
+┃ ┣ 📂Lib
+┃ ┃ ┗ 📂site-packages
+┃ ┣ 📂Scripts
+┣ 📂web_scraper2_review
+┃ ┣ 📂.git
+┃ ┣ 📂scripts
+┃ ┃ ┗ 📜scraper_minipjt.py
+┃ ┣ 📂static
+┃ ┃ ┣ 📂image
+┃ ┃ ┗ 📂js
+┃ ┣ 📂templates
+┃ ┃ ┣ 📜base.html
+┃ ┃ ┣ 📜footer.html
+┃ ┃ ┗ 📜navbar.html
+┃ ┣ 📂tenten
+┃ ┃ ┣ 📂migrations
+┃ ┃ ┃ ┗ 📜__init__.py
+┃ ┃ ┣ 📂templates
+┃ ┃ ┃ ┣ 📜dashboard.html
+┃ ┃ ┃ ┗ 📜index.html
+┃ ┃ ┣ 📜admin.py
+┃ ┃ ┣ 📜apps.py
+┃ ┃ ┣ 📜forms.py
+┃ ┃ ┣ 📜models.py
+┃ ┃ ┣ 📜tests.py
+┃ ┃ ┣ 📜views.py
+┃ ┃ ┗ 📜__init__.py
+┃ ┣ 📂web_scraper2
+┃ ┃ ┣ 📜asgi.py
+┃ ┃ ┣ 📜settings.py
+┃ ┃ ┣ 📜urls.py
+┃ ┃ ┣ 📜wsgi.py
+┃ ┃ ┗ 📜__init__.py
+┃ ┣ 📜.gitignore
+┃ ┣ 📜db.sqlite3
+┃ ┣ 📜manage.py
+┃ ┣ 📜README.md
+┃ ┗ 📜req.txt
 ```
