@@ -38,7 +38,7 @@
 
 ## 앱 데이터 모델
   * 데이터 수집 사이트 : https://www.10x10.co.kr/shoppingtoday/shoppingchance_saleitem.asp?sflag=sc&disp=&srm=be
-  * 데이터 수집 정보 : 이미지_url, 상품_url, 가격, 상품명, 할인율, 댓글개수, 좋아요개수
+  * 데이터 수집 정보 : 이미지_url, 상품_url, 가격, 상품명, 할인율, 댓글개수, 좋아요 개수
 
 |수집정보|데이터 속성|필요한 django 메서드|
 |--|:--:|--|
